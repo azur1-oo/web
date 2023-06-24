@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语言学习资源</title>
+    <link rel="stylesheet" type="text/css" href="../css/language.css">
+    <script>
+        function change(src) {
+            document.getElementById("iframe_content").src = src;
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="margin: 0;">欢迎来到英语学习资源站</h1>
+            <a href="./home.html">回到首页</a>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="javascript:void(0)" onclick="change('./vocabulary.html')">常用单词</a></li>
+                <li><a href="javascript:void(0)" onclick="change('./syntax.html')">基本语法</a></li>
+                <li><a href="javascript:void(0)" onclick="change('./article.html')">文章学习</a></li>
+                <li><a href="javascript:void(0)" onclick="change('./learn_method.html')">学习策略</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <iframe src="./vocabulary.html" frameborder="0" style="height: 640px ; width: 1100px;"
+                id="iframe_content"></iframe>
+        </div>
+        <div class="im" style="float: left; padding-top: 10px;">
+            <img src="../img/eg.jpg" alt="" style="height: 200px; width:198px; opacity: 0.7;"><br />
+            <img src="../img/eg2.jpeg" alt="" style="height: 200px; width:198px; opacity: 0.7;"><br />
+            <img src="../img/eg3.jpeg" alt="" style="height: 200px; width:198px; opacity: 0.7;">
+        </div>
+        <div class="footer">
+            <p> 更多资源敬请期待</p>
+        </div>
+    </div>
+</body>
+
+</html>

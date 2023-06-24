@@ -1,0 +1,52 @@
+.nav {
+    background-color: rgba(149, 198, 254, 0.751);
+    position: relative;
+}
+
+.nav a {
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    right: 20px;
+    top: 20px;
+    line-height: 60px;
+    border-radius: 20%;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.888);
+}
+
+.nav p {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    left: 110px;
+
+}
+
+.v_introduce {
+    text-align: center;
+    background-color: rgb(165, 72, 252, 0.2);
+
+}
+
+.img img {
+    height: 600px;
+    width: 1000px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.img {
+    text-align: center;
+}
+
+.desc p {
+    font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+    font-size: 30px;
+    color: rgb(54, 125, 255);
+}

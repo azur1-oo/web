@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/blhx.css">
+    <title>游戏介绍</title>
+    <style>
+        @keyframes myfirst {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+
+            }
+        }
+
+        @keyframes mysecond {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .im1 {
+            position: absolute;
+            margin-left: 22%;
+
+        }
+
+        .im2 {
+            text-align: center;
+        }
+
+        video {
+            width: 60%;
+            height: auto;
+            /* margin-left: 20%; */
+            margin-top: 20px;
+        }
+
+        body {
+            background-image: url(../img/xn.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        body {
+            font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="nav">
+            <img src="../img/jj.png" alt="" style="height: 100px; width:100px; border-radius: 10%;">
+            <p><strong style="color: blue;">碧蓝航线 </strong><br />
+                即时海战游戏</p>
+
+            <a href="https://mumu.163.com/fab/blhx/bd/" download="filename">下载</a>
+        </div>
+        <div class="im1">
+            <img src="../img/az.jpg" alt=""
+                style="height: 600px; width:800px; animation: myfirst 4s; border-radius: 50%; opacity: 0; ">
+        </div>
+        <div class="im2">
+            <img src="../img/bl6.png" alt=""
+                style="border-radius: 50%; height : 600px; width: 800px; animation: mysecond 8s;">
+        </div>
+
+        <div class="v_introduce">
+            <h3 style="font-size: 30px;">6周年狂欢季</h3>
+            <video width="400" controls>
+                <source src="../video/azur.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="../img/blhx01.jpg">
+                    <img decoding="async" src="../img/blhx01.jpg" alt="">
+                </a>
+                <div class="desc">
+                    <p>碧海流年</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="../img/blhx02.jpeg">
+                    <img decoding="async" loading="lazy" src="../img/blhx02.jpeg" alt="">
+                </a>
+                <div class="desc">
+                    <p>欢迎游玩</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="../img/bl01.jpg">
+                    <img decoding="async" loading="lazy" src="../img/bl01.jpg" alt="">
+                </a>
+                <div class="desc">
+                    <p> 一起征战</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="../img/bl02.jpeg">
+                    <img decoding="async" loading="lazy" src="../img/bl02.jpeg" alt="图片文本描述">
+                </a>
+                <div class="desc">
+                    <p>永不离弃</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

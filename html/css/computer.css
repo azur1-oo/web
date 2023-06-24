@@ -1,0 +1,63 @@
+.nav0 {
+    /* background-color: rgb(227, 227, 245); */
+    background: linear-gradient(rgb(99, 99, 255), rgb(254, 127, 127));
+    height: 60px;
+}
+
+.nav0 li {
+    list-style: none;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.nav0 ul li a {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    /* color: rgb(149, 255, 0); */
+}
+
+.introduce img {
+    float: left;
+}
+
+.introduce {
+    overflow: hidden;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+h3 {
+    color: cadetblue;
+}
+
+.nav_top {
+    position: fixed;
+    margin: 0;
+    right: 20px;
+}
+
+.nav_top ul li a {
+    font-size: 15px;
+    color: rgb(247, 88, 44);
+}
+
+.nav_top ul li a:hover {
+    color: rgb(255, 229, 31);
+}
+
+.nav_top li {
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+}

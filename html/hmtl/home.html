@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/homestyle.css">
+    <link rel="stylesheet" href="../css/text.css">
+    <title>个人学习资源</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        body {
+            background-image: url(../img/信浓2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-800px);
+            }
+
+            50% {
+                transform: translateX(-1600px);
+            }
+
+            75% {
+
+                transform: translateX(-2400px);
+            }
+
+            100% {
+                transform: translateX(-3000px);
+            }
+        }
+    </style>
+    <script>
+        function search() {
+            alert("抱歉，该功能目前暂不能用，后续会完善哦");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav_img"><img src="../icon/东煌.jpeg" alt="" style="height: 100px; width:100px"></div>
+        <!-- 链接 -->
+        <div class="nav_a">
+            <ul>
+                <li><a href="http://www.baidu.com" target="_blank">百度</a></li>
+                <li><a href="http://www.bilibili.com" target="_blank">bilibili</a></li>
+                <li><a href="">帮助</a></li>
+            </ul>
+        </div>
+        <!-- 搜索栏 -->
+        <div class="search">
+            <input type="text">
+            <button onclick="search()">搜索</button>
+        </div>
+    </div>
+    <h1>欢迎来到资源站，选择您感兴趣的内容👇</h1>
+    <div class="guide">
+        <ul>
+            <li>
+                <a href="./computer.html">计算机知识</a>
+            </li>
+            <li>
+                <a href="./languge.html">语言学习</a>
+            </li>
+            <li>
+                <a href="./blhx.html" target="_blank">碧蓝航线</a>
+            </li>
+            <li><a href="./book.html">计算机书籍介绍</a></li>
+            <li><a href="./report.html">Web应用基础</a></li>
+            <li><a href="">敬请期待</a></li>
+            <li><a href="">敬请期待</a></li>
+            <li><a href="">敬请期待</a></li>
+            <li><a href="">更多资源</a></li>
+
+        </ul>
+
+        <div class="banner-container clearfix">
+            <!-- 创建图片存储容器 -->
+            <div class="banner-image-container">
+                <!-- 引入轮播图图片 -->
+                <a href="./blhx.html" target="_blank"><img src="../icon/azur.webp"></a>
+                <a href="./computer.html" target="_blank"><img src="../icon/computer.webp"></a>
+                <a href="./languge.html" target="_blank"><img src="../icon/languag.jpeg"></a>
+                <a href="./blhx.html" target="_blank"><img src="../img/jj.png" alt=""></a>
+                <a href="./blhx.html" target="_blank"><img src="../img/信浓.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="im">
+            <div class="img1"><img src="../icon/撒丁.jpeg" alt="" style="height: 200px; width: 200px; opacity: 0.7;">
+            </div>
+            <div class="img2"><img src="../icon/白鹰.jpeg" alt="" style="height: 200px; width: 200px; opacity: 0.7;">
+            </div>
+            <div class="img3"><img src="../icon/重樱.jpeg" alt="" style="height: 200px; width: 200px; opacity: 0.7;">
+            </div>
+        </div>
+        <div class="footer">
+            <p> 更多资源敬请期待</p>
+        </div>
+    </div>
+    <div class="music">
+        <p style="color: rgb(47, 54, 251);">来听首歌放松下吧</p>
+        <audio src="../music/STEREO DIVE FOUNDATION - Daisy.mp3" controls="controls"></audio>
+    </div>
+
+</body>
+
+</html>
